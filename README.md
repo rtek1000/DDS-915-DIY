@@ -32,6 +32,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 - - The gun uses 24V, stronger diodes are needed to get -12V high power
 - - - The +12V with the -12V form the 24V for the gun
 - - - It is also necessary to adapt the filters
+- - - Practically all ATX power supplies have a similar circuit, so you need to study the circuit a little to adapt, the -12V line must have similar components to the +12V line, for that you will need 2 power supplies, in case they are reused from old computers .
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/atxps.png)
 
