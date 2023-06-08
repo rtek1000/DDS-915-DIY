@@ -25,7 +25,8 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 ### Hardware
 
 - The power supply was adapted from an ATX computer power supply
-- - The gun uses 24V, and the pump needs 12V
+- - The gun uses 24V, stronger diodes are needed to get -12V high power, it is also necessary to adapt the filters
+- - The pump needs 12V, which is already available in the ATX font
 - - 5V voltage for the Arduino comes from the standby 5V line
 
 - A good alternative to the vacuum pump can be this model: [DC-555](https://www.aliexpress.com/item/32821282878.html) ([found in China](https://pt.aliexpress.com/w/wholesale-dc-555-pump.html)):
