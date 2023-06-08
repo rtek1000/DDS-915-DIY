@@ -12,6 +12,14 @@ Watch these videos to understand how it works:
 
 Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation-zd-915.html)
 
+### Software
+
+- The Arduino sketch takes up almost all of the ATmega328's capacity.
+
+- PID type temperature control is used
+
+- The biggest consumption of resources is the OLED display, of 0.96 inches, operating with a clock of 400kHz on the I2C bus.
+
 ### Hardware
 
 A good alternative to the [vacuum pump](https://www.aliexpress.com/item/32821282878.html) can be this model: DC-555 (found in China):
