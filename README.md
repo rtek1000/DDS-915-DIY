@@ -16,7 +16,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 ### Software
 
-- The Arduino sketch takes up almost all of the ATmega328's capacity.
+- The Arduino sketch takes up almost all of the ATmega328's capacity
 
 - PID type temperature control is used
 
