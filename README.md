@@ -24,7 +24,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 ### Hardware
 
-Schematic:
+- Schematic
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/DDS-915-DIY_Kicad.png)
 
