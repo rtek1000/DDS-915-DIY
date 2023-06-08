@@ -696,6 +696,8 @@ void loop() {
     if (current_heater > 4.8)
     {
       error_number = ERROR_CURRENT; // 3; // sensor inverted or MOSFET short circuit
+
+      digitalWrite(psu_enable, LOW);
     }
 
     power_heater = (current_setpoint * 100) / 255;
