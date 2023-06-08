@@ -2,6 +2,8 @@
 Digital desoldering station (ZD-915 based)
 - Using Arduino NANO board
 
+(Working in progress)
+
 ### References
 
 Watch these videos to understand how it works:
