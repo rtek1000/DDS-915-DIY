@@ -26,7 +26,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 - In order to have some protection, the firmware may report two errors
 - - Due to high temperature, or due to high heater current
-- - - If the gun sensor informs a high temperature value, the power supply must turn off, and the pump is also activated in case the source cannot be turned off
+- - - If the gun sensor informs a high temperature value, the power supply must turn off, and the pump is also activated in case the power supply cannot be turned off
 - - - If the gun heater has a high current, the power supply is also turned off
 - - - - So the ATX power supply turns out to be a good option to be adapted
 
