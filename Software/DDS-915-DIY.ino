@@ -217,7 +217,7 @@ void setup() {
 
   digitalWrite(LED, HIGH);
 
-  while ((digitalRead(pump_input) == HIGH) && (digitalRead(btn_up) == HIGH) && (digitalRead(btn_dn) == HIGH)) {   
+  while ((digitalRead(pump_input) == HIGH) && (digitalRead(btn_up) == HIGH) && (digitalRead(btn_dn) == HIGH)) {
     wdt_reset();
   }
 
@@ -225,7 +225,9 @@ void setup() {
     wdt_reset();
   }
 
-  digitalWrite(psu_enable, HIGH);
+  if (error_number == ERROR_FREE) {
+    digitalWrite(psu_enable, HIGH);
+  }
 
   if (current_adc > 10)
   {
@@ -419,7 +421,9 @@ void loop() {
             minutes = minutes_recall;
             seconds = seconds_recall;
 
-            digitalWrite(psu_enable, HIGH);
+            if (error_number == ERROR_FREE) {
+              digitalWrite(psu_enable, HIGH);
+            }
           }
           else
           {
@@ -439,7 +443,9 @@ void loop() {
             minutes = minutes_recall;
             seconds = seconds_recall;
 
-            digitalWrite(psu_enable, HIGH);
+            if (error_number == ERROR_FREE) {
+              digitalWrite(psu_enable, HIGH);
+            }
           }
         }
       }
@@ -448,6 +454,8 @@ void loop() {
 
   if (error_number == ERROR_TEMP) {
     digitalWrite(pump_out, HIGH);
+
+    digitalWrite(psu_enable, LOW);
   } else {
     if (((digitalRead(pump_input) == LOW) && (pump_input_old == LOW) && (timeout_step == 0)) &&
         ((lock_pump == LOW) || ((setpoint_temp - heater_temper) < 15)))
@@ -961,7 +969,7 @@ void draw(int _error) {
     u8g2.drawStr( 107, -3, char1);
 
     u8g2.setFont(u8g2_font_fur14_tr); // 14 pixels
-    
+
     //    if (degree == 0)
     //    {
     u8g2.drawStr( 116, 0, "C");
