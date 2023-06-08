@@ -18,7 +18,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 - PID type temperature control is used
 
-- The biggest consumption of resources is the OLED display (0.96 inches) operating with a clock of 400kHz on the I2C bus.
+- The biggest consumption of resources is the OLED display (0.96 inches) on the I2C bus.
 
 ### Hardware
 
