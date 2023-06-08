@@ -2,7 +2,7 @@
 Digital desoldering station (ZD-915 based)
 - Using Arduino NANO board
 
-(Working in progress)
+> This scheme has been used since 2018, recently the OLED display was changed, and some adjustments were made in the firmware to improve the temperature setpoint adjustment increment
 
 ### References
 
