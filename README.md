@@ -24,8 +24,6 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 - The temperature conversion of the thermocouple sensor is accurate, but not faithful. The gun has common wires and it would be necessary to use cold junction sensors, but it is suitable for home use
 
-- Care must be taken due to the high working temperature, it is generally necessary to leave above 400°C / 450°C in this scheme so that the gun duct does not clog
-
 ### Hardware
 
 - Schematic
@@ -50,6 +48,9 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/pump.png)
 
+- Care must be taken due to the high working temperature, it is generally necessary to leave above 400°C / 450°C in this scheme so that the gun duct does not clog
+
+- The most suitable working position is with the gun tip up, so that the solder residue is away from the heater duct
 
 ### Accessories
 
