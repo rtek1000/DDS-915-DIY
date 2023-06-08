@@ -62,6 +62,18 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/1/1b/Colored_felt_cloth.jpg)
 
+- The ZD-915 has a secondary filter, which includes a filtering element with a larger diameter, this filter can be made with a PET bottle nozzle, the screw cap makes it easy to change the filtering element, which can be a cotton ball, just to retain any impurities that pass through the gun's filter (which has two layers of felt)
+
+![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/filter_zd915.png)
+
+- - Two water bottle spouts
+- - Two aluminum rivets (used to shield sheet metal)
+- - Two hex bolt nuts
+- - Glue to seal the aluminum rivet to the bottle cap
+- - A light spring can be used to keep the cotton ball pressed against the aluminum rivet
+
+![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/Filter2.png)
+
 ### Licence
 
 #### Hardware:
