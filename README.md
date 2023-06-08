@@ -54,7 +54,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/pump.png)
 
-- - As this pump is not designed to generate a vacuum, it may be necessary to apply some reinforcement to the pump casing to prevent leaks
+- - As this pump is not designed to generate vacuum, it may be necessary to apply some reinforcement to the pump casing to prevent leaks
 
 - Care must be taken due to the high working temperature, it is generally necessary to leave above 400°C / 450°C in this scheme so that the gun duct does not clog
 
