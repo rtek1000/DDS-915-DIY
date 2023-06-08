@@ -13,3 +13,8 @@ Ref.: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation
 [Pump](https://www.aliexpress.com/item/32821282878.html)
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/pump.png)
+
+
+The gun filter can be made with two layers of felt, 3M brand is very good quality, can be found as Floor cloth.
+
+![img](https://en.wikipedia.org/wiki/Felt#/media/File:Colored_felt_cloth.jpg)
