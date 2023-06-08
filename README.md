@@ -12,6 +12,8 @@ Watch these videos to understand how it works:
 
 Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation-zd-915.html)
 
+### Hardware
+
 A good alternative to the [vacuum pump](https://www.aliexpress.com/item/32821282878.html) can be this model: DC-555 (found in China):
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/pump.png)
