@@ -17,6 +17,7 @@ Ref.: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation
 
 ### Accessories
 
-- The gun filter can be made with two layers of felt, 3M brand is very good quality, can be found as "Scotch-Brite Floor Cloth".
+- The gun filter can be made with two layers of felt
+(3M brand is very good quality, can be found as "Scotch-Brite Floor Cloth")
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/1/1b/Colored_felt_cloth.jpg)
