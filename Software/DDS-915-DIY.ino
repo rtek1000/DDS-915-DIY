@@ -65,7 +65,7 @@ boolean lock_pump = LOW;
 float ColdTemp_val;
 int cycle_dsp_setup = 5;
 int button_repeat = 100;
-int setpoint_temp = 160;
+int setpoint_temp = MIN_TEMP;
 float heater_temper = 0;
 float HotTemp_val;
 int current_adc = 0;
@@ -656,7 +656,7 @@ void loop() {
 
       if (timeout_step == 1) // stand by after 15 min
       {
-        Setpoint = 160 + 0.5;
+        Setpoint = MIN_TEMP + 0.5;
 
         myPID.Compute();
 
