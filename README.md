@@ -24,7 +24,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 - The power supply was adapted from an ATX computer power supply, the gun uses 24V, and the pump needs 12V
 
-- A good alternative to the vacuum pump can be this model: [DC-555](https://www.aliexpress.com/item/32821282878.html) (found in China):
+- A good alternative to the vacuum pump can be this model: [DC-555](https://www.aliexpress.com/item/32821282878.html) ([found in China](https://pt.aliexpress.com/w/wholesale-dc-555-pump.html)):
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/pump.png)
 
