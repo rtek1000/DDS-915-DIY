@@ -2,9 +2,9 @@
 //
 // by RTEK1000 07/2023
 
-#include <U8g2lib.h>
-#include <TimerOne.h>
-#include <PID_v1.h>
+#include <U8g2lib.h>    // https://github.com/olikraus/u8g2
+#include <TimerOne.h>   // https://github.com/PaulStoffregen/TimerOne
+#include <PID_v1.h>     // https://github.com/br3ttb/Arduino-PID-Library
 #include <EEPROM.h>
 #include <math.h>       /* log */
 #include <avr/wdt.h>
@@ -12,7 +12,7 @@
 #include <avr/pgmspace.h>
 
 #ifdef U8X8_HAVE_HW_I2C
-#include <Wire.h> // to OLED display 
+#include <Wire.h>       // to OLED display 
 #endif
 
 // OLED 0.96 inch LCD I2C addr: 0x3C (Check using I2C address scanning sketch):
@@ -53,7 +53,7 @@ int disp_temper;
 unsigned long millis_old;
 unsigned long millis_old2;
 unsigned long millis_old3;
-int minutes_recall = 15;
+int minutes_recall = 5;
 int seconds_recall = 0;
 int minutes = minutes_recall;
 int seconds = seconds_recall;
@@ -457,10 +457,10 @@ void loop() {
 
     digitalWrite(psu_enable, LOW);
   } else {
-    if (((digitalRead(pump_input) == LOW) && (pump_input_old == LOW) && (timeout_step == 0)) &&
+    if (((digitalRead(pump_input) == LOW) && (pump_input_old == false) && (timeout_step == 0)) &&
         ((lock_pump == LOW) || ((setpoint_temp - heater_temper) < 15)))
     {
-      pump_input_old = HIGH;
+      pump_input_old = true;
 
       minutes = minutes_recall;
       seconds = seconds_recall;
@@ -488,9 +488,15 @@ void loop() {
         }
       }
     }
-    else if ((digitalRead(pump_input) == HIGH) && (pump_input_old == HIGH))
+    else if ((heater_temper - setpoint_temp) > 25)
     {
-      pump_input_old = LOW;
+      digitalWrite(pump_out, HIGH);
+
+      pump_input_old = true;
+    }
+    else if ((digitalRead(pump_input) == HIGH) && (pump_input_old == true))
+    {
+      pump_input_old = false;
 
       for (for_pump = 25; for_pump >= 0; for_pump--)
       {
@@ -941,7 +947,7 @@ void draw(int _error) {
   }
   else
   {
-    u8g2.setFont(u8g2_font_fur42_tr); // 35
+    u8g2.setFont(u8g2_font_7Segments_26x42_mn); // 35 u8g2_font_fur42_tr
 
     if (timeout_step == 0)
     {
