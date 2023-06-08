@@ -6,7 +6,7 @@ Watch this video to understand how it works:
 
 - [ZD-915 Desoldering Station review](https://www.youtube.com/watch?v=_Ar05rKqoEI)
 
-- [Improving a cheap vacuum desolder-station (ZD-915)](https://www.youtube.com/watch?v=ohsEzJjJ1tc)
+- [ZD-915 Desoldering gun upgrade - overvoltage fix](https://www.youtube.com/watch?v=MPcmVaqe08Y)
 
 Ref.: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation-zd-915.html)
 
