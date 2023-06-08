@@ -10,7 +10,7 @@ Watch these videos to understand how it works:
 
 Ref.: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation-zd-915.html)
 
-[Pump](https://www.aliexpress.com/item/32821282878.html)
+A good alternative to the [vacuum pump](https://www.aliexpress.com/item/32821282878.html) can be this model, found in China:
 
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/pump.png)
 
