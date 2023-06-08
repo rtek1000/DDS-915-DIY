@@ -32,6 +32,9 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 - - The gun uses 24V, stronger diodes are needed to get -12V high power
 - - - The +12V with the -12V form the 24V for the gun
 - - - It is also necessary to adapt the filters
+
+![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/atxps.png)
+
 - - The pump needs 12V, which is already available in the ATX font
 - - 5V voltage for the Arduino comes from the standby 5V line
 
