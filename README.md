@@ -32,6 +32,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 - - 5V voltage for the Arduino comes from the standby 5V line
 
 - The OLED display can fade over time, so try to make it easy to replace
+- - Be careful to buy a display with the same I2C address (0x3C)
 
 - A good alternative to the vacuum pump can be this model: [DC-555](https://www.aliexpress.com/item/32821282878.html) ([found in China](https://pt.aliexpress.com/w/wholesale-dc-555-pump.html)):
 
