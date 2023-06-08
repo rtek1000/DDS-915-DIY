@@ -1,6 +1,6 @@
 // DDS-915-DIY - Digital desoldering station (ZD-915 based)
 //
-// by RTEK1000 07/2023
+// by RTEK1000 06/2023
 
 #include <U8g2lib.h>    // https://github.com/olikraus/u8g2
 #include <TimerOne.h>   // https://github.com/PaulStoffregen/TimerOne
