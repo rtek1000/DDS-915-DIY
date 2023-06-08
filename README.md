@@ -10,7 +10,7 @@ Watch these videos to understand how it works:
 
 - [ZD-915 Desoldering gun upgrade - overvoltage fix](https://www.youtube.com/watch?v=MPcmVaqe08Y)
 
-Ref.: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation-zd-915.html)
+Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/desolderingstation-zd-915.html)
 
 A good alternative to the [vacuum pump](https://www.aliexpress.com/item/32821282878.html) can be this model: DC-555 (found in China):
 
