@@ -34,7 +34,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 - - - It is also necessary to adapt the filters
 - - - Practically all ATX power supplies have a similar circuit, including wire thickness of filters. So it is necessary to study the circuit a little to adapt, the -12V line must have components similar to the +12V line, for that, whoever assembles it will need 2 power supplies, if they are reused from old computers
 
-![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/atxps.png)
+![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/atxps2.png)
 
 - - The pump needs 12V, which is already available in the ATX font
 - - 5V voltage for the Arduino comes from the standby 5V line
