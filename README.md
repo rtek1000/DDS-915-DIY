@@ -25,7 +25,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 - The [temperature conversion](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/temperature-measurement/thermocouple/type-e-calibration-table) of the thermocouple sensor is accurate, but not faithful. The gun has common wires and it would be necessary to use [cold junction sensors](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/temperature-measurement/thermocouple/cold-junction-compensation), but it is suitable for non-commercial use
 
 - In order to have some protection, the firmware may report two errors
-- - One due to high temperature, and one due to high heater current
+- - Due to high temperature, or due to high heater current
 - - - If the gun sensor informs a high temperature value, the source must turn off, and the pump is also activated in case the source cannot be turned off
 - - - If the gun heater has a high current, the source is also turned off
 
