@@ -45,7 +45,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 ![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/atxps2.png)
 
 - - The pump needs 12V, which is already available in the ATX power supply
-- - 5V voltage for the Arduino comes from the standby 5V line
+- - The +5V voltage for the Arduino comes from the standby 5V line
 
 - The OLED display can fade over time, so try to make it easy to replace
 - - Be careful to buy a display with the same I2C address (0x3C)
