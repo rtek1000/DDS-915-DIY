@@ -24,6 +24,10 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 ### Hardware
 
+Schematic:
+
+![img](https://raw.githubusercontent.com/rtek1000/DDS-915-DIY/main/Hardware/Doc/DDS-915-DIY_Kicad.png)
+
 - The power supply was adapted from an ATX computer power supply
 - - The gun uses 24V, stronger diodes are needed to get -12V high power
 - - - The +12V with the -12V form the 24V for the gun
