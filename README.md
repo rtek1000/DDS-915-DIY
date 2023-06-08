@@ -22,7 +22,7 @@ Additional Information: [ZD-915 digital desoldering station](https://eleshop.eu/
 
 - The biggest consumption of resources is the OLED display (0.96 inches) on the I2C bus
 
-- The [temperature conversion](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/temperature-measurement/thermocouple/type-e-calibration-table) of the thermocouple sensor is accurate, but not faithful. The gun has common wires and it would be necessary to use cold junction sensors, but it is suitable for non-commercial use
+- The [temperature conversion](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/temperature-measurement/thermocouple/type-e-calibration-table) of the thermocouple sensor is accurate, but not faithful. The gun has common wires and it would be necessary to use [cold junction sensors](http://www.mosaic-industries.com/embedded-systems/microcontroller-projects/temperature-measurement/thermocouple/cold-junction-compensation), but it is suitable for non-commercial use
 
 ### Hardware
 
